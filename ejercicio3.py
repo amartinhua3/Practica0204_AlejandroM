@@ -7,10 +7,10 @@ u = int(input('Escriba el número de unidades que desea: '))
 if q in p:
     print(p[q] * u)
 elif q in h:
-    print(h[q])
+    print(h[q] * u)
 elif q in c:
-    print(c[q])
+    print(c[q] * u)
 elif q in a:
-    print(a[q])
+    print(a[q] * u)
 else:
     print('El articulo indicado no está en la lista')
